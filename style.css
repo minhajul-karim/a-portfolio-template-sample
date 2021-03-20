@@ -1,0 +1,48 @@
+/* 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+/* Hamburger */
+.hamburger {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bar {
+  height: 2px;
+  width: 100%;
+  background: #000;
+}
